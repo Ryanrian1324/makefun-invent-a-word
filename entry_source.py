@@ -2,7 +2,7 @@
 """Writes the bounty entry text to /output/entry.txt."""
 import os
 
-ENTRY = 'Snoozelag — the seconds between what your alarm stopped and what your body still believes; the SI unit is the cold floor meter, one per bare foot, 6 a.m. sharp.'
+ENTRY = 'Snoozelag — the seconds between what your alarm stopped and what your body still believes; the SI unit is the cold floor meter, one per bare foot, 6 a.m., coffee pending.'
 
 
 def main():
