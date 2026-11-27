@@ -1,2 +1,2 @@
-#coding:l1
-import lzma;exec(lzma.decompress('\0\0\x000\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r´KFQÅBÜÂ*ÇcB„]n­Ù[¥?EÛÇ\rf|%þ—°ˆ‹èª¥ë¥#Mé„Ãð¯YkA]€´Á®ý\0¬æ}÷k–C\rãÇ€bÉAà‹9´¼y‡W·Di,œ‡àmÆq.æÓÈ0ý¾ô‹rhOµù×‰áº÷”Ô\'{ZÑ‰NZ2rš»0\'ªËwl7éÀ`%]÷p‹ìàÀê\nø‚Éâ‘‹OßùWï7\r¢Nðã©¡£‰YV~æyEÌ¢`ßpûL1í¸©Öf£2¡ˆ†Øh¹R„Ç-ceF˜3{Æ\\se¦vŽ†{ÐZ(¾Ç×¯	“ý™¬d\'Â*©fžY„Œ¾På!d/Ðm¨È|­;f½`Yé"­Æ`(]{à8úßJÈè#á›»1ÙV\r‰ß¨mFQ\nÑZ¿£¡´Ï«”—Kö­®Õþ½m½Dtx)•Ÿ€< Ãk¬y¶Ô(J,ƒÏŸº¢/œÃ'.encode('l1')))
+"""Entry for u-deranalabs-invent-a-word-we-need."""
+ENTRY = "quaslide (noun, /KWAW-slid/) - the moment you lean back in your chair to look thoughtful during a video call, and your Wi-Fi freezes you mid-recline, so everyone stares at your open mouth for eleven seconds. Verb form: quasliding. Usage: 'Sorry, I was quasliding - I promise I was agreeing with you the whole time.'"
