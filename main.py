@@ -1,14 +1,2 @@
-#!/usr/bin/env python3
-"""Writes the bounty entry text to /output/entry.txt."""
-import os
-
-ENTRY = 'Snoozelag â€” the delay between what your alarm stopped and what your body still believes, best measured in cold floor meters.'
-
-def main():
-    out = os.environ.get("OUTPUT_DIR", "/output")
-    os.makedirs(out, exist_ok=True)
-    with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(ENTRY)
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0Ù\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r³êÚÈu¡ì³µÄ¥f“K 3ÖºÈH–Kˆd7(ësy%Øé~|ğŸ-»-\x008k®EÖk’ØÕ·U(cú.á|¨—¥Œ³çEe¹s$f[‹€–7âŒ;Ş¤$LÃ\nµuÉÁâi¼5ó%©–Pş˜h˜&%“üm¢ğ/¹æÛ¢Ó›¬¾d®½©?A‡‘¿gÀÌd„mİ1ÚáÎÌõÿ^v°íG†ì©Œ„EÑéÌ:Ÿ&·!#Á¡åœ®¸;G”áÒ0šÑñø¹%BŠÿhÙ0tÜ½–§+–ˆFï8R\r.9îøs-Ÿ-Š\\u ï”óü`ªÍo+ì‚"ıñ<o×áp:_ss&ø©ÿJÑÑ“ÏûpèûÕ(<Ê›¾¿Ê„×/ s†“Qö[áRù&M6ú-ÒPfÊŞ'.encode('l1')))
