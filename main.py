@@ -2,7 +2,7 @@
 """Writes the bounty entry text to /output/entry.txt."""
 import os
 
-ENTRY = 'Snoozelag — the groggy gap between what your alarm stopped and your body believes.'
+ENTRY = 'Snoozelag — the groggy gap between what your alarm stopped and what your body still believes. Named for the snooze button\'s five-minute lie.'
 
 def main():
     out = os.environ.get("OUTPUT_DIR", "/output")
