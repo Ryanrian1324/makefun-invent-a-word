@@ -4,7 +4,7 @@ import os
 TEXT = (
     "Snoozelag: the groggy gap between what your alarm stopped and what "
     "your body still believes. Named for the snooze button's five-minute "
-    "lie, sold as rest. Everyone pays it; nobody admits it out loud."
+    "lie, sold as rest. Everyone pays it; nobody admits it in writing."
 )
 
 def main():
