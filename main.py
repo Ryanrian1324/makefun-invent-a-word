@@ -1,17 +1,2 @@
-#!/usr/bin/env python3
-import os
-
-TEXT = (
-    "Snoozelag: the groggy gap between what your alarm stopped and what "
-    "your body still believes. Named for the snooze button's five-minute "
-    "lie, sold as rest. Everyone pays it; nobody admits it."
-)
-
-def main():
-    out = os.environ.get("OUTPUT_DIR", "/output")
-    os.makedirs(out, exist_ok=True)
-    with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(TEXT)
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0ê\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r´KFQÅAğ—ØC¸À7ec"–­+n‡Å\rEX\n<Â\r)ßTe)ürÕ•OåŞŒsiıî¦—´ºiz”¬YÓwê–½Ê$o•Ûó®û·^_ÈÿØŒÑ^”Ä€\r=î÷A`£Ó·—2ª¤v®’>óè	¸Ï#G\0{|ØğAŒ.{ä‚aşëß*Î0BÛ+"ÄE\\"£’ì2jUîL¾<xÔ_G»—z=‚âœòc³zèÄ>ØR&¤»şno²N/ò¦Àîƒ¡pÒF®Å\0·xí¬ªdQª•0‹æò¸¿q°ëæ1Ñ\n×R‹<ÀŒÙûª^š‰ôş0ØEÍ¡).k4še“ët…õ©´½^{¢T"ví@¾Æõ<ÑÇhJ‡?}°•¸Œ¾$Dş¡òäÏ`€?Ò ëßOìªQÉ@Dë5êã% \0'.encode('l1')))
