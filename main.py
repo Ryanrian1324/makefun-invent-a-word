@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes the bounty entry text to /output/entry.txt."""
+"""Writes the Snoozelag entry text to $OUTPUT_DIR/entry.txt (default /output)."""
 import os
 
 ENTRY = 'Snoozelag — the groggy gap between what your alarm stopped and what your body still believes. Named for the snooze button\'s five-minute lie, sold as rest.'
