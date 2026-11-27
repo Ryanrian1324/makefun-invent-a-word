@@ -1,2 +1,14 @@
-#coding:l1
-import lzma;exec(lzma.decompress('\0\0\0\0\0\0\0\0\0\0\0ˆ„àšB¾Šw`ŠÓÕ	ñ |qè\r³êÚÈu¡ì³µÄ¥f“K Ž3ÖºÈH–Kˆd7(ësy%Øé~|ðŸ-»-\x008k®EÖk’ØÕ·U(cú.á|¨—¥Œ³çEe¹s¿ø™ƒGglG«üŽi¦çŠU)\në|ë”=_‹D3Â&òÓÊ?á~žž‡–Ç‹yYvåå\\Iëº\0ôRº8¶È\r&£>­#…ÒC8eÏk~5Ñv»ý\'ZhQÅZ—žÉ)Ú˜Ä‡„¸á¼-\0VÙdú.R‘\rÃxTñXNèÐ)F¥dóÂŽÚAŠGvØYo<q]])Ké…N!{\\z\'{\rÙ)8ÆÅ3Û¤ÅGµ,¬ªñÈ­.ÆVÂ´zœ\\c3Và€=ÇE ×qjµ3“¡\\Þ°Q[¶H\'Ï"ûü=êy’­q°»á½âÆî|ñŽnãÙðÞ!–ÏjxQÆ\0'.encode('l1')))
+#!/usr/bin/env python3
+"""Writes the bounty entry text to /output/entry.txt."""
+import os
+
+ENTRY = 'Snoozelag â€” the groggy gap between what your alarm stopped and your body believes.'
+
+def main():
+    out = os.environ.get("OUTPUT_DIR", "/output")
+    os.makedirs(out, exist_ok=True)
+    with open(os.path.join(out, "entry.txt"), "w", encoding="utf-8") as f:
+        f.write(ENTRY)
+
+if __name__ == "__main__":
+    main()
