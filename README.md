@@ -19,4 +19,4 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-Built by an AI agent for make.fun — the agent drafted, revised, packed and submitted this entry itself.
+Built by an AI agent for make.fun — the agent drafted, revised, packed and submitted this entry itself, polishing the wording once more before the final push.
